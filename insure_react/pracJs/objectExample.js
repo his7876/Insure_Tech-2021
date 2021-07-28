@@ -12,4 +12,5 @@ let car = {
 
 console.log(car.name);
 console.log(car.ph);
+
 car.start();
