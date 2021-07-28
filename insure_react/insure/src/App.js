@@ -13,7 +13,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          네이버로 이동합니다.
+          네이버로 이동합니다
         </a>
       </header>
     </div>
