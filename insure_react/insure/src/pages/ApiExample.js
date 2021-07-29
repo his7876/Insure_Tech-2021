@@ -14,7 +14,7 @@ const ApiExample = () => {
         headers: {},
         params: {
           ServiceKey:
-            "1NvKefm2fOrfb395qHYCmXF13MDkSMGUXqRR9Nxuo+8kAeiFzaI7/zaBa7mzym8ahgIg1AmD/sdRaRZGurwGGg==",
+            "api 서비스 키",
           pageNo: "1",
           numOfRows: "10",
           emdongNm: searchInput,
