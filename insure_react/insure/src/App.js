@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import ListPage from "./pages/ListPage";
 import AxiosTest from "./pages/AxiosTest";
 import NewsPage from "./pages/NewsPage";
+import ApiExample from "./pages/ApiExample";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </Route>
         <Route path="/news" exact>
          <NewsPage></NewsPage>
+        </Route>
+        <Route path="/api" exact>
+         <ApiExample></ApiExample>
         </Route>
       </Switch>
     </Router>
