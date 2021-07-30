@@ -17,7 +17,7 @@ const HospitalListPage = () => {
         headers: {},
         params: {
           ServiceKey:
-            "1NvKefm2fOrfb395qHYCmXF13MDkSMGUXqRR9Nxuo+8kAeiFzaI7/zaBa7mzym8ahgIg1AmD/sdRaRZGurwGGg==",
+            "api key",
           pageNo: "1",
           numOfRows: "10",
           yadmNm: searchInput,
