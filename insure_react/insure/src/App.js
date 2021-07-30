@@ -9,6 +9,7 @@ import HospitalListPage from "./pages/HospitalListPage";
 import HospitalDetail from "./pages/HospitalDetail";
 import CipherTest from "./pages/CipherTest";
 import Carinfo from "./pages/Carinfo";
+import InsurePage from "./pages/InsurePage";
 function App() {
   return (
     <Router>
@@ -39,6 +40,9 @@ function App() {
         </Route>
         <Route path="/car" exact>
          <Carinfo></Carinfo>
+        </Route>
+        <Route path="/insure" exact>
+         <InsurePage></InsurePage>
         </Route>
       </Switch>
     </Router>
