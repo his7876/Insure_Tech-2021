@@ -7,6 +7,8 @@ import NewsPage from "./pages/NewsPage";
 import ApiExample from "./pages/ApiExample";
 import HospitalListPage from "./pages/HospitalListPage";
 import HospitalDetail from "./pages/HospitalDetail";
+import CipherTest from "./pages/CipherTest";
+import Carinfo from "./pages/Carinfo";
 function App() {
   return (
     <Router>
@@ -31,6 +33,12 @@ function App() {
         </Route>
         <Route path="/hospitalDetail" exact>
          <HospitalDetail></HospitalDetail>
+        </Route>
+        <Route path="/key" exact>
+         <CipherTest></CipherTest>
+        </Route>
+        <Route path="/car" exact>
+         <Carinfo></Carinfo>
         </Route>
       </Switch>
     </Router>
