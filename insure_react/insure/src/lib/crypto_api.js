@@ -17,6 +17,6 @@ const makeAES = (plainText, key, iv) => {
 makeHashValue();
 makeAES(
   "!Kwic123테스트",
-  "H3uVnnOnNIXXsH63CsgswUsmICSCdVsn",
-  "dwUgwmwOndnJOmOX"
+  "EncKey",
+  "EncIV" 
 );
